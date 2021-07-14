@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.rainbow:hover {
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation: slidebg 5s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 20vw;
+    }
+}
+
+
+/*---------------- start first-section 
+-----------------*/
+/* .first-section {
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+} */
+/* header start */
+/* header start */
+/* header start */
+header {
+
+    background-color: #2D25A0;
+    color: white;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+
+header .menu .left-menu ul {
+    display: flex;
+
+    list-style: none;
+
+
+
+    margin: 0;
+    padding: 0;
+}
+
+header .menu .left-menu ul li {
+    padding-right: 20px;
+
+}
+
+.right-menu a {
+
+    height: 123px;
+    width: 44px;
+    padding: 10px 24px;
+    background-color: tomato;
+    margin-right: 20px;
+    color: white;
+
+}
+
+/* end nav */
+/* end nav */
+/* end nav */
+/* hearder article start */
+/* hearder article start */
+/* hearder article start */
+.header-article {
+    display: flex;
+
+    padding-top: 60px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.header-article-content {
+    /*! text-align: center; */
+    align-items: center;
+}
+
+.header-article-content h2 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.button a {
+    text-decoration: none;
+    display: inline-block;
+    background: #E02C6D;
+    padding: 10px 24px;
+
+}
+
+/* header end */
+/* header end */
+/* header end */
+/* main content start */
+/* main content start */
+/* main content start */
+.player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 60px 120px;
+}
+
+.player-content-item {
+    justify-content: center;
+
+    padding: 10px;
+
+    box-shadow: 0px 0px 25px rgba(168, 167, 168, 0.925);
+    background-color: whitesmoke;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.text {
+
+    padding: 10px;
+}
+
+.text h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.player-img img {
+    position: relative;
+    left: 10%;
+
+    width: 80%;
+}
+
+/* main comtent end */
+
+
+/* highlight sectin start */
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+
+    margin: 0px 40px;
+}
+
+.highlight-content {
+    padding: 120px 100px;
+}
+
+.highlight-content h3 {
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.h-img img {
+    width: 80%;
+}
+
+/* comment start */
+/* comment start */
+/* comment start */
+.contact-form {
+    width: 650px;
+    /*! position: relative; */
+    /*! left: 730px; */
+    padding: 20px 30px;
+    margin: 20px;
+    background-color: rgb(104, 92, 105);
+    margin: auto;
+    overflow: hidden;
+}
+
+.input-item label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.input-item input,
+.input-item textarea {
+    display: block;
+    width: 90%;
+    outline: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.input-item button {
+    display: inline-block;
+    padding: 12px 30px;
+    color: #000;
+    margin-top: 15px;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+
+/* footer start */
+.footer-content {
+
+    text-align: center;
+    color: black;
+
+}
+
+.footer-logo img {
+    width: 20%;
+}
+
+.footer-nav ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.footer-nav ul li a {
+    display: inline-block;
+    border-radius: 50%;
+    background: #E7E7E8;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    color: #2D25A0;
+    font-size: 17px;
+    margin: 0 10px;
+    transition: all 0.2s ease;
+}
+
+.footer-nav ul li a:hover {
+    opacity: 0.5;
+}
